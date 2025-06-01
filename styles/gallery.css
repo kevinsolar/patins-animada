@@ -36,7 +36,7 @@
       overflow: hidden;
       line-height: 0;
 
-      animation: image-appear 1s linear backwards;
+      animation: image-appear linear backwards;
       animation-timeline: view();
       animation-range: 100px 300px;
 
@@ -84,6 +84,7 @@
          gap: 0.5rem;
 
          font: 500 var(--text-sm)/1.5 var(--ff-base);
+         color: white;
 
          position: absolute;
          bottom: 0;
